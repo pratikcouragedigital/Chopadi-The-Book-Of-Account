@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_2sdp"
+    android:layout_marginRight="@dimen/_2sdp"
+    android:background="@drawable/border">
+
+    <TextView
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:id="@+id/txtSrNo"
+        android:text="No"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:id="@+id/txtPDate"
+        android:text="Date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"/>
+
+    <TextView
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:id="@+id/txtProductName"
+        android:text="Product"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.2"/>
+
+    <TextView
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:id="@+id/txtProductPrice"
+        android:text="Price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.7"/>
+
+    <TextView
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:id="@+id/txtQty"
+        android:text="Qty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:id="@+id/txtTotal"
+        android:text="Total"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.6"/>
+
+
+</LinearLayout>

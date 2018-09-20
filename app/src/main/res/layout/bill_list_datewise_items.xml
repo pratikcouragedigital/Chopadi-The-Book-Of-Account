@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="Customer :"
+                    android:id="@+id/lblCustomerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:textColor="@color/lowRating"
+                    android:text="Pratik"
+                    android:id="@+id/txtCustomerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Date"
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/border"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:text="Total Rs."
+                    android:id="@+id/lblTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_20sdp"
+                    android:text="60"
+                    android:id="@+id/txtTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_10sdp"-->
+        <!--android:layout_marginRight="@dimen/_10sdp"-->
+        <!--android:layout_marginTop="@dimen/_10sdp"-->
+        <!--card_view:cardCornerRadius="@dimen/_1sdp"-->
+        <!--card_view:cardElevation="@dimen/_2sdp">-->
+
+        <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/customerLayout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/transparent">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/txtCustomerName"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:padding="@dimen/_5sdp"-->
+                    <!--android:text="Customer Name"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="@dimen/_13sdp"-->
+                    <!--android:textStyle="bold" />-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/txtDate"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:padding="@dimen/_5sdp"-->
+                    <!--android:text="12-jan-2017"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="@dimen/_13sdp"-->
+                    <!--android:textStyle="bold" />-->
+
+            <!--</RelativeLayout>-->
+
+            <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/customerLayout"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/LayoutTea"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="Tea" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtTeaPrice"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="12" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtNoOfTea"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtTeaTotal"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/LayoutCoffee"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="Coffee" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtCoffeePrice"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="12" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtNoOfCoffee"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtCoffeeTotal"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/LayoutBlackTea"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="BlackTea" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtBlackTeaPrice"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="12" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtNoOfBlackTea"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtBlackTeaTotal"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/LayoutUkala"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="Ukala" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtUkalaPrice"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="12" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtNoOfUkala"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtUkalaTotal"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/LayoutBiscuit"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="Biscuit" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtBiscuitPrice"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="12" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtNoOfBiscuit"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtBiscuitTotal"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/LayoutSamosa"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="Samosa" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtSamosaPrice"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="12" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtNoOfSamosa"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtSamosaTotal"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="5" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/LayoutTotal"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="Total" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtTotal"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="2"-->
+                        <!--android:text="12" />-->
+
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+<!--</LinearLayout>-->

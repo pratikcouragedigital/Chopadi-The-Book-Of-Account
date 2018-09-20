@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Chopadi (The Book of Account)</string>
+    <string name="google_key">AIzaSyD5Wp2ZReSeVeN5iHMGeXrJKVRTXXO-wic</string>
+    <string name="fabBehaviour"> com.mobitechs.teaDiary.behaviours.ScrollAwareFABBehavior</string>
+
+    <string name="admob_app_id">ca-app-pub-6329089990555773~3379963076</string>
+    <string name="banner_home_footer">ca-app-pub-6329089990555773/2230532934</string>
+    <string name="interstitial_full_screen">ca-app-pub-6329089990555773/1735708912</string>
+
+    <!--<string name="admob_app_id">ca-app-pub-6329089990555773~3379963076a</string>&ndash;&gt;-->
+    <!--<string name="banner_home_footer">ca-app-pub-6329089990555773/2230532934a</string>-->
+    <!--<string name="interstitial_full_screen">ca-app-pub-6329089990555773/1735708912a</string>-->
+
+    <string name="customerAdd">Click here to add customer. \n\n\n  कस्टमर ऐड करने के लिए यहाँ क्लिक करे.</string>
+
+
+</resources>
